@@ -1,6 +1,6 @@
 {
   "name": "@toheeb/html-reference",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "data about html elements and attributes",
   "main": "index.js",
   "scripts": {
