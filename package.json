@@ -4,13 +4,13 @@
   "description": "data about html elements and attributes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "keywords": [
     "html",
     "element",
     "attribute"
   ],
-  "author": "Olamilekan Ogunbiyi",
+  "author": "Ọlámilékan Ogúnbíyi",
   "license": "AGPL-3.0-or-later"
 }
