@@ -2,7 +2,7 @@
 const elements = [
   {
     "element": "a",
-    "description": "phrases a resource link",
+    "description": "signifies a resource link phrase",
     "spec": "https://html.spec.whatwg.org/#the-a-element",
     "attributes": {
       "href": "",
@@ -17,17 +17,17 @@ const elements = [
   },
   {
     "element": "abbr",
-    "description": "phrases an abbreviation",
+    "description": "signifies an abbreviated phrase",
     "spec": "https://html.spec.whatwg.org/#the-abbr-element",
   },
   {
     "element": "address",
-    "description": "groups contact contents",
+    "description": "signifies a contact content",
     "spec": "https://html.spec.whatwg.org/#the-address-element",
   },
   {
     "element": "area",
-    "description": "specify the link of an image part",
+    "description": "specifies an `img` `map` region link",
     "spec": "https://html.spec.whatwg.org/#the-area-element",
     "attributes": {
       "alt": "", 
@@ -43,17 +43,17 @@ const elements = [
   },
   {
     "element": "article",
-    "description": "groups independent contents",
+    "description": "signifies an independent content",
     "spec": "https://html.spec.whatwg.org/#the-article-element",
   },
   {
     "element": "aside",
-    "description": "groups tangental contents",
+    "description": "signifies a diverging content",
     "spec": "https://html.spec.whatwg.org/#the-aside-element",
   },
   {
     "element": "audio",
-    "description": "specify an audio media",
+    "description": "specifies an audio multimedia",
     "spec": "https://html.spec.whatwg.org/#the-audio-element",
     "attributes": {
       "src": "", 
@@ -67,12 +67,12 @@ const elements = [
   },
   {
     "element": "b",
-    "description": "phrases an attentive text",
+    "description": "signifies an attentive phrase",
     "spec": "https://html.spec.whatwg.org/#the-b-element",
   },
   {
     "element": "base",
-    "description": "specify document base URL",
+    "description": "specifies the `head` base URL",
     "spec": "https://html.spec.whatwg.org/#the-base-element",
     "attributes": {
       "href": "", 
@@ -81,17 +81,17 @@ const elements = [
   },
   {
     "element": "bdi",
-    "description": "phrases an isolated text",
+    "description": "signifies a bi-direction phrase",
     "spec": "https://html.spec.whatwg.org/#the-bdi-element",
   },
   {
     "element": "bdo",
-    "description": "phrases a bidirectional text",
+    "description": "signifies an off-direction phrase",
     "spec": "https://html.spec.whatwg.org/#the-bdo-element",
   },
   {
     "element": "blockquote",
-    "description": "groups quoted contents",
+    "description": "signifies a quoted content",
     "spec": "https://html.spec.whatwg.org/#the-blockquote-element",
     "attributes": {
       "cite": ""
@@ -99,7 +99,7 @@ const elements = [
   },
   {
     "element": "body",
-    "description": "groups document contents",
+    "description": "signifies the document content",
     "spec": "https://html.spec.whatwg.org/#the-body-element",
     "attributes": {
       "onafterprint": "", 
@@ -123,12 +123,12 @@ const elements = [
   },
   {
     "element": "br",
-    "description": "specify a phrase break",
+    "description": "specifies a line break",
     "spec": "https://html.spec.whatwg.org/#the-br-element",
   },
   {
     "element": "button",
-    "description": "specify a user action",
+    "description": "signifies a call-to-action phrase",
     "spec": "https://html.spec.whatwg.org/#the-button-element",
     "attributes": {
       "disabled": "", 
@@ -147,7 +147,7 @@ const elements = [
   },
   {
     "element": "canvas",
-    "description": "specify an image on the fly",
+    "description": "specifies a real-time image multimedia",
     "spec": "https://html.spec.whatwg.org/#the-canvas-element",
     "attributes": {
       "width": "", 
@@ -156,22 +156,22 @@ const elements = [
   },
   {
     "element": "caption",
-    "description": "groups table label contents",
+    "description": "signifies a table caption content",
     "spec": "https://html.spec.whatwg.org/#the-caption-element",
   },
   {
     "element": "cite",
-    "description": "phrases the title of a work",
+    "description": "signifies a work title phrase",
     "spec": "https://html.spec.whatwg.org/#the-cite-element",
   },
   {
     "element": "code",
-    "description": "phrases a computer code",
+    "description": "signifies a computer code phrase",
     "spec": "https://html.spec.whatwg.org/#the-code-element",
   },
   {
     "element": "col",
-    "description": "specify table column targets",
+    "description": "specifies a `colgroup` item",
     "spec": "https://html.spec.whatwg.org/#the-col-element",
     "attributes": {
       "span": ""
@@ -179,7 +179,7 @@ const elements = [
   },
   {
     "element": "colgroup",
-    "description": "specify (list of) table column targets",
+    "description": "specifies a `table` column target",
     "spec": "https://html.spec.whatwg.org/#the-colgroup-element",
     "attributes": {
       "span": ""
@@ -187,7 +187,7 @@ const elements = [
   },
   {
     "element": "data",
-    "description": "phrases a machine-readable text",
+    "description": "signifies a machine-readable phrase",
     "spec": "https://html.spec.whatwg.org/#the-data-element",
     "attributes": {
       "value": ""
@@ -195,17 +195,17 @@ const elements = [
   },
   {
     "element": "datalist",
-    "description": "specify the list of option elements",
+    "description": "signifies a set of `option` content",
     "spec": "https://html.spec.whatwg.org/#the-datalist-element",
   },
   {
     "element": "dd",
-    "description": "groups dl name contents",
+    "description": "signifies a description definition content",
     "spec": "https://html.spec.whatwg.org/#the-dd-element",
   },
   {
     "element": "del",
-    "description": "phrases a deleted text",
+    "description": "signifies a deleted content",
     "spec": "https://html.spec.whatwg.org/#the-del-element",
     "attributes": {
       "cite": "", 
@@ -214,7 +214,7 @@ const elements = [
   },
   {
     "element": "details",
-    "description": "groups more contents",
+    "description": "signifies a disclosable content",
     "spec": "https://html.spec.whatwg.org/#the-details-element",
     "attributes": {
       "open": ""
@@ -222,12 +222,12 @@ const elements = [
   },
   {
     "element": "dfn",
-    "description": "phrases a definition instance",
+    "description": "signifies a definition instance phrase",
     "spec": "https://html.spec.whatwg.org/#the-dfn-element",
   },
   {
     "element": "dialog",
-    "description": "groups transitory contents",
+    "description": "signifies a transitional content",
     "spec": "https://html.spec.whatwg.org/#the-dialog-element",
     "attributes": {
       "open": ""
@@ -235,27 +235,27 @@ const elements = [
   },
   {
     "element": "div",
-    "description": "groups blank contents",
+    "description": "signifies an 'other' content",
     "spec": "https://html.spec.whatwg.org/#the-div-element",
   },
   {
     "element": "dl",
-    "description": "groups name-value contents",
+    "description": "signifies a set of `dt` and `dd` content",
     "spec": "https://html.spec.whatwg.org/#the-dl-element",
   },
   {
     "element": "dt",
-    "description": "groups dl value contents",
+    "description": "signifies a description term content",
     "spec": "https://html.spec.whatwg.org/#the-dt-element",
   },
   {
     "element": "em",
-    "description": "phrases a stressed text",
+    "description": "signifies a stressed phrase",
     "spec": "https://html.spec.whatwg.org/#the-em-element",
   },
   {
     "element": "embed",
-    "description": "specify a stand-by integration point",
+    "description": "specifies a placeholder multimedia",
     "spec": "https://html.spec.whatwg.org/#the-embed-element",
     "attributes": {
       "src": "", 
@@ -266,7 +266,7 @@ const elements = [
   },
   {
     "element": "fieldset",
-    "description": "groups control elements",
+    "description": "signifies a set of related 'field' content",
     "spec": "https://html.spec.whatwg.org/#the-fieldset-element",
     "attributes": {
       "disabled": "", 
@@ -276,22 +276,22 @@ const elements = [
   },
   {
     "element": "figcaption",
-    "description": "groups figure label contents",
+    "description": "signifies a figure caption content",
     "spec": "https://html.spec.whatwg.org/#the-figcaption-element",
   },
   {
     "element": "figure",
-    "description": "groups offsetted independent contents",
+    "description": "signifies an off-flowable content",
     "spec": "https://html.spec.whatwg.org/#the-figure-element",
   },
   {
     "element": "footer",
-    "description": "groups supplementary contents",
+    "description": "signfies a supplementary content",
     "spec": "https://html.spec.whatwg.org/#the-footer-element",
   },
   {
     "element": "form",
-    "description": "specify a link to process control elements",
+    "description": "signifies a set of 'field' content",
     "spec": "https://html.spec.whatwg.org/#the-form-element",
     "attributes": {
       "accept-charset": "", 
@@ -307,42 +307,42 @@ const elements = [
   },
   {
     "element": "h1",
-    "description": "blocks heading level 1 contents",
+    "description": "signifies a heading level 1 block",
     "spec": "https://html.spec.whatwg.org/#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",
   },
   {
     "element": "h2",
-    "description": "blocks heading level 2 contents",
+    "description": "signifies a heading level 2 block",
     "spec": "https://html.spec.whatwg.org/#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",
   },
   {
     "element": "h3",
-    "description": "blocks heading level 3 contents",
+    "description": "signifies a heading level 3 block",
     "spec": "https://html.spec.whatwg.org/#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",
   },
   {
     "element": "h4",
-    "description": "blocks heading level 4 contents",
+    "description": "signifies a heading level 4 block",
     "spec": "https://html.spec.whatwg.org/#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",
   },
   {
     "element": "h5",
-    "description": "blocks heading level 5 contents",
+    "description": "signifies a heading level 5 block",
     "spec": "https://html.spec.whatwg.org/#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",
   },
   {
     "element": "h6",
-    "description": "blocks heading level 6 contents",
+    "description": "signifies a heading level 6 block",
     "spec": "https://html.spec.whatwg.org/#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",
   },
   {
     "element": "head",
-    "description": "groups document metadata",
+    "description": "specify the document metadata",
     "spec": "https://html.spec.whatwg.org/#the-head-element",
   },
   {
     "element": "header",
-    "description": "groups introductory contents",
+    "description": "signifies an introductory content",
     "spec": "https://html.spec.whatwg.org/#the-header-element",
   },
   {
@@ -352,22 +352,22 @@ const elements = [
   },
   {
     "element": "hr",
-    "description": "specify a paragraph break",
+    "description": "specifies a paragraph break",
     "spec": "https://html.spec.whatwg.org/#the-hr-element",
   },
   {
     "element": "html",
-    "description": "represents document metadata and content",
+    "description": "represents the document",
     "spec": "https://html.spec.whatwg.org/#the-html-element",
   },
   {
     "element": "i",
-    "description": "phrases an alternated text",
+    "description": "signifies an alternated phrase",
     "spec": "https://html.spec.whatwg.org/#the-i-element",
   },
   {
     "element": "iframe",
-    "description": "specify a content navigable",
+    "description": "specifies a web document multimedia",
     "spec": "https://html.spec.whatwg.org/#the-iframe-element",
     "attributes": {
       "src": "", 
@@ -384,7 +384,7 @@ const elements = [
   },
   {
     "element": "img",
-    "description": "specify an image",
+    "description": "specifies an image multimedia",
     "spec": "https://html.spec.whatwg.org/#the-img-element",
     "attributes": {
       "alt": "", 
@@ -404,7 +404,7 @@ const elements = [
   },
   {
     "element": "input",
-    "description": "specify a field for user content",
+    "description": "specifies a data field",
     "spec": "https://html.spec.whatwg.org/#the-input-element",
     "attributes": {
       "accept": "", 
@@ -443,7 +443,7 @@ const elements = [
   },
   {
     "element": "ins",
-    "description": "phrases an inserted text",
+    "description": "signifies an inserted content",
     "spec": "https://html.spec.whatwg.org/#the-ins-element",
     "attributes": {
       "cite": "", 
@@ -452,12 +452,12 @@ const elements = [
   },
   {
     "element": "kbd",
-    "description": "phrases a computer input",
+    "description": "signifies a user input phrase",
     "spec": "https://html.spec.whatwg.org/#the-kbd-element",
   },
   {
     "element": "label",
-    "description": "phrases an element label",
+    "description": "signifies an element caption phrase",
     "spec": "https://html.spec.whatwg.org/#the-label-element",
     "attributes": {
       "for": ""
@@ -465,21 +465,21 @@ const elements = [
   },
   {
     "element": "legend",
-    "description": "blocks a fieldset label",
+    "description": "signifies a `fieldset` caption content",
     "spec": "https://html.spec.whatwg.org/#the-legend-element",
   },
   {
     "element": "li",
-    "description": "groups list item contents",
+    "description": "signifies a 'list' item content",
     "spec": "https://html.spec.whatwg.org/#the-li-element",
     "attributes": {
       "value": ""
     },
-    "attributesNote": "if element is not a child of ul or menu",
+    "attributesNote": "if the element is not a child of ul or menu",
   },
   {
     "element": "link",
-    "description": "specify a link to document resources",
+    "description": "specifies an extension link",
     "spec": "https://html.spec.whatwg.org/#the-link-element",
     "attributes": {
       "href": "", 
@@ -504,12 +504,12 @@ const elements = [
   },
   {
     "element": "main",
-    "description": "groups dominant contents",
+    "description": "signifies the dominant content",
     "spec": "https://html.spec.whatwg.org/#the-main-element",
   },
   {
     "element": "map",
-    "description": "specify an image map",
+    "description": "signifies an `img` map content",
     "spec": "https://html.spec.whatwg.org/#the-map-element",
     "attributes": {
       "name": ""
@@ -517,12 +517,12 @@ const elements = [
   },
   {
     "element": "mark",
-    "description": "phrases a marked text",
+    "description": "signifies a highlighted phrase",
     "spec": "https://html.spec.whatwg.org/#the-mark-element",
   },
   {
     "element": "math",
-    "description": "groups a single mathematical formula",
+    "description": "signifies a math formula phrase",
     "spec": "https://www.w3.org/Math/draft-spec/chapter2.html#interf.toplevel",
     "attributes": {
       "display": ""
@@ -530,12 +530,12 @@ const elements = [
   },
   {
     "element": "menu",
-    "description": "groups unordered toolbar list items",
+    "description": "signifies a set of toolbar `li` content",
     "spec": "https://html.spec.whatwg.org/#the-menu-element",
   },
   {
     "element": "meta",
-    "description": "specify other document resources",
+    "description": "specifies an 'other' metadata item",
     "spec": "https://html.spec.whatwg.org/#the-meta-element",
     "attributes": {
       "name": "", 
@@ -547,7 +547,7 @@ const elements = [
   },
   {
     "element": "meter",
-    "description": "phrases gauge of a known range",
+    "description": "signifies the gauge of a known phrase",
     "spec": "https://html.spec.whatwg.org/#the-meter-element",
     "attributes": {
       "value": "", 
@@ -560,17 +560,17 @@ const elements = [
   },
   {
     "element": "nav",
-    "description": "groups navigation contents",
+    "description": "signifies a navigation content",
     "spec": "https://html.spec.whatwg.org/#the-nav-element",
   },
   {
     "element": "noscript",
-    "description": "represents disabled-script contents",
+    "description": "represents a `script` fallback content",
     "spec": "https://html.spec.whatwg.org/#the-noscript-element",
   },
   {
     "element": "object",
-    "description": "specify other multimedia",
+    "description": "specifies an 'other' multimedia",
     "spec": "https://html.spec.whatwg.org/#the-object-element",
     "attributes": {
       "data": "", 
@@ -583,7 +583,7 @@ const elements = [
   },
   {
     "element": "ol",
-    "description": "groups ordered list items",
+    "description": "signifies a set of ordered `li` content",
     "spec": "https://html.spec.whatwg.org/#the-ol-element",
     "attributes": {
       "reversed": "", 
@@ -593,7 +593,7 @@ const elements = [
   },
   {
     "element": "optgroup",
-    "description": "specify a list of select option elements",
+    "description": "specifies a set of `select` `option` content",
     "spec": "https://html.spec.whatwg.org/#the-optgroup-element",
     "attributes": {
       "disabled": "", 
@@ -602,7 +602,7 @@ const elements = [
   },
   {
     "element": "option",
-    "description": "specify an option",
+    "description": "represents a 'field' option text",
     "spec": "https://html.spec.whatwg.org/#the-option-element",
     "attributes": {
       "disabled": "", 
@@ -613,7 +613,7 @@ const elements = [
   },
   {
     "element": "output",
-    "description": "phrases a user result",
+    "description": "signifies a computer output phrase",
     "spec": "https://html.spec.whatwg.org/#the-output-element",
     "attributes": {
       "for": "", 
@@ -623,22 +623,22 @@ const elements = [
   },
   {
     "element": "p",
-    "description": "blocks paragraph contents",
+    "description": "signifies a paragraph block",
     "spec": "https://html.spec.whatwg.org/#the-p-element",
   },
   {
     "element": "picture",
-    "description": "specify an image with alternative sources",
+    "description": "specifies a set of `img` `source` content",
     "spec": "https://html.spec.whatwg.org/#the-picture-element",
   },
   {
     "element": "pre",
-    "description": "blocks preformatted contents",
+    "description": "signifies a preformatted block",
     "spec": "https://html.spec.whatwg.org/#the-pre-element",
   },
   {
     "element": "progress",
-    "description": "phrases gauge of an unknown range",
+    "description": "signifies the gauge of an unknown phrase",
     "spec": "https://html.spec.whatwg.org/#the-progress-element",
     "attributes": {
       "value": "", 
@@ -647,7 +647,7 @@ const elements = [
   },
   {
     "element": "q",
-    "description": "phrases a quoted text",
+    "description": "signifies a quoted phrase",
     "spec": "https://html.spec.whatwg.org/#the-q-element",
     "attributes": {
       "cite": ""
@@ -655,32 +655,32 @@ const elements = [
   },
   {
     "element": "rp",
-    "description": "phrases a ruby fallback",
+    "description": "signifies a `ruby` fallback text",
     "spec": "https://html.spec.whatwg.org/#the-rp-element",
   },
   {
     "element": "rt",
-    "description": "phrases a ruby component",
+    "description": "signifies a `ruby` component phrase",
     "spec": "https://html.spec.whatwg.org/#the-rt-element",
   },
   {
     "element": "ruby",
-    "description": "phrases a ruby annotation",
+    "description": "signifies a ruby annotated phrase",
     "spec": "https://html.spec.whatwg.org/#the-ruby-element",
   },
   {
     "element": "s",
-    "description": "phrases an irrelevant text",
+    "description": "signifies an inaccurate phrase",
     "spec": "https://html.spec.whatwg.org/#the-s-element",
   },
   {
     "element": "samp",
-    "description": "phrases a computer output",
+    "description": "signifies a previous `output` phrase",
     "spec": "https://html.spec.whatwg.org/#the-samp-element",
   },
   {
     "element": "script",
-    "description": "specify a document script",
+    "description": "represents a script text",
     "spec": "https://html.spec.whatwg.org/#the-script-element",
     "attributes": {
       "src": "", 
@@ -697,17 +697,17 @@ const elements = [
   },
   {
     "element": "search",
-    "description": "groups filtering elements",
+    "description": "signifies a search content",
     "spec": "https://html.spec.whatwg.org/#the-search-element",
   },
   {
     "element": "section",
-    "description": "groups generic contents",
+    "description": "signifies a dependent content",
     "spec": "https://html.spec.whatwg.org/#the-section-element",
   },
   {
     "element": "select",
-    "description": "specify a field for multi-option text",
+    "description": "specifies a multi-option text field",
     "spec": "https://html.spec.whatwg.org/#the-select-element",
     "attributes": {
       "autocomplete": "", 
@@ -721,7 +721,7 @@ const elements = [
   },
   {
     "element": "slot",
-    "description": "phrases a placeholder",
+    "description": "signifies a placeholder content",
     "spec": "https://html.spec.whatwg.org/#the-slot-element",
     "attributes": {
       "name": ""
@@ -729,12 +729,12 @@ const elements = [
   },
   {
     "element": "small",
-    "description": "phrases a side comment",
+    "description": "signifies an aside phrase",
     "spec": "https://html.spec.whatwg.org/#the-small-element",
   },
   {
     "element": "source",
-    "description": "specify an alternative image or media",
+    "description": "specifies an `img` or 'media' source",
     "spec": "https://html.spec.whatwg.org/#the-source-element",
     "attributes": {
       "type": "", 
@@ -748,17 +748,17 @@ const elements = [
   },
   {
     "element": "span",
-    "description": "phrases a text",
+    "description": "signifies an 'other' phrase",
     "spec": "https://html.spec.whatwg.org/#the-span-element",
   },
   {
     "element": "strong",
-    "description": "phrases an important text",
+    "description": "signifies an important phrase",
     "spec": "https://html.spec.whatwg.org/#the-strong-element",
   },
   {
     "element": "style",
-    "description": "specify a document CSS",
+    "description": "specifies a style text",
     "spec": "https://html.spec.whatwg.org/#the-style-element",
     "attributes": {
       "media": "", 
@@ -767,22 +767,22 @@ const elements = [
   },
   {
     "element": "sub",
-    "description": "phrases a subscript",
+    "description": "signifies a subscripted phrase",
     "spec": "https://html.spec.whatwg.org/#the-sub-and-sup-elements",
   },
   {
     "element": "summary",
-    "description": "blocks a details label",
+    "description": "signifies a `details` caption content",
     "spec": "https://html.spec.whatwg.org/#the-legend-element",
   },
   {
     "element": "sup",
-    "description": "phrases a superscript",
+    "description": "signifies a superscripted phrase",
     "spec": "https://html.spec.whatwg.org/#the-sub-and-sup-elements",
   },
   {
     "element": "svg",
-    "description": "groups scalable vector graphics",
+    "description": "signifies a vector image multimedia",
     "spec": "https://svgwg.org/svg2-draft/struct.html#SVGElement",
     "attributes": {
       "height": "",
@@ -795,17 +795,17 @@ const elements = [
   },
   {
     "element": "table",
-    "description": "groups multi-dimensional contents",
+    "description": "signifies a multi-dimensional content",
     "spec": "https://html.spec.whatwg.org/#the-table-element",
   },
   {
     "element": "tbody",
-    "description": "group table rows of body contents",
+    "description": "signifies the set of `tr` body content",
     "spec": "https://html.spec.whatwg.org/#the-tbody-element",
   },
   {
     "element": "td",
-    "description": "group table cell contents",
+    "description": "signifies a `table` data content",
     "spec": "https://html.spec.whatwg.org/#the-td-element",
     "attributes": {
       "colspan": "", 
@@ -815,12 +815,12 @@ const elements = [
   },
   {
     "element": "template",
-    "description": "represents clonable contents",
+    "description": "represents a model content",
     "spec": "https://html.spec.whatwg.org/#the-template-element",
   },
   {
     "element": "textarea",
-    "description": "specify field for multi-line text",
+    "description": "specifies a multi-line text field",
     "spec": "https://html.spec.whatwg.org/#the-textarea-element",
     "attributes": {
       "autocomplete": "", 
@@ -840,12 +840,12 @@ const elements = [
   },
   {
     "element": "tfoot",
-    "description": "group table rows of column summaries",
+    "description": "signifies the set of `tr` summary content",
     "spec": "https://html.spec.whatwg.org/#the-tfoot-element",
   },
   {
     "element": "th",
-    "description": "group table cell headers",
+    "description": "signifies a `table` header content",
     "spec": "https://html.spec.whatwg.org/#the-th-element",
     "attributes": {
       "colspan": "", 
@@ -857,12 +857,12 @@ const elements = [
   },
   {
     "element": "thead",
-    "description": "group table rows of column headers",
+    "description": "specifies the set of `tr` header content",
     "spec": "https://html.spec.whatwg.org/#the-thead-element",
   },
   {
     "element": "time",
-    "description": "phrases a time data",
+    "description": "signifies a time-readable phrase",
     "spec": "https://html.spec.whatwg.org/#the-time-element",
     "attributes": {
       "datetime": ""
@@ -870,17 +870,17 @@ const elements = [
   },
   {
     "element": "title",
-    "description": "specify the document title",
+    "description": "specifies the `head` title text",
     "spec": "https://html.spec.whatwg.org/#the-title-element",
   },
   {
     "element": "tr",
-    "description": "groups a table row",
+    "description": "signifies a `table` row content",
     "spec": "https://html.spec.whatwg.org/#the-tr-element",
   },
   {
     "element": "track",
-    "description": "specify a media time-based text",
+    "description": "specifies a timed text for an `audio`  or a `video`",
     "spec": "https://html.spec.whatwg.org/#the-track-element",
     "attributes": {
       "kind": "", 
@@ -892,22 +892,22 @@ const elements = [
   },
   {
     "element": "u",
-    "description": "phrases an unarticulated text",
+    "description": "signifies an unarticulated phrase",
     "spec": "https://html.spec.whatwg.org/#the-u-element",
   },
   {
     "element": "ul",
-    "description": "groups unordered list items",
+    "description": "signifies a set of unordered `li` content",
     "spec": "https://html.spec.whatwg.org/#the-ul-element",
   },
   {
     "element": "var",
-    "description": "phrases a variable",
+    "description": "signifies a variable phrase",
     "spec": "https://html.spec.whatwg.org/#the-var-element",
   },
   {
     "element": "video",
-    "description": "specify a video media",
+    "description": "specifies a video multimedia",
     "spec": "https://html.spec.whatwg.org/#the-video-element",
     "attributes": {
       "src": "", 
@@ -925,12 +925,12 @@ const elements = [
   },  
   {
     "element": "wbr",
-    "description": "specify a word break opportunity",
+    "description": "specifies a suitable line break",
     "spec": "https://html.spec.whatwg.org/#the-wbr-element",
   },
   {
     "element": "-",
-    "description": "Represents autonomous custom elements",
+    "description": "signifies a custom content",
     "spec": "https://html.spec.whatwg.org/#autonomous-custom-element",
     "attributes": {
       "form": "", 
@@ -941,7 +941,7 @@ const elements = [
   },
   {
     "element": "",
-    "description": "Represents nothing or text node.",
+    "description": "signifies a text",
     "spec": "https://html.spec.whatwg.org/#text-content",
   },
 ]
