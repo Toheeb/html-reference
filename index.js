@@ -929,6 +929,16 @@ const elements = [
     "spec": "https://html.spec.whatwg.org/#the-wbr-element",
   },
   {
+    "element": "!doctype",
+    "description": "specifies the document type",
+    "spec": "https://html.spec.whatwg.org/#the-doctype"
+  },
+  {
+    "element": "!-- --",
+    "description": "specifies a comment",
+    "spec": "https://html.spec.whatwg.org/#syntax-comments"
+  },
+  {
     "element": "-",
     "description": "signifies a custom content",
     "spec": "https://html.spec.whatwg.org/#autonomous-custom-element",
