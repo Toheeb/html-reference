@@ -954,6 +954,174 @@ const elements = [
     "description": "signifies a text",
     "spec": "https://html.spec.whatwg.org/#text-content",
   },
+  {
+    "element": "alert",
+    "description": "signifies a live important content",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#alert",
+    "standard": "aria"
+  },
+  {
+    "element": "alertdialog",
+    "description": "signifies an alert `dialog` content",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#alertdialog",
+    "standard": "aria"
+  },
+  {
+    "element": "application",
+    "description": "signifies an 'other' 'widget' content",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#application",
+    "standard": "aria"
+  },
+  {
+    "element": "document",
+    "description": "signifies a reading mode content",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#document",
+    "standard": "aria"
+  },
+  {
+    "element": "feed",
+    "description": "signifies a stream of `article` content",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#feed",
+    "standard": "aria"
+  },
+  {
+    "element": "grid",
+    "description": "signifies a 2D navigable widget content",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#grid",
+    "standard": "aria"
+  },
+  {
+    "element": "gridcell",
+    "description": "signifies a `grid` or `treegrid` cell content",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#gridcell",
+    "standard": "aria"
+  },
+  {
+    "element": "group",
+    "description": "signifies an out-of-outline content",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#group",
+    "standard": "aria"
+  },
+  {
+    "element": "log",
+    "description": "signifies a live orderly changing content",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#lot",
+    "standard": "aria"
+  },
+  {
+    "element": "marquee",
+    "description": "signifies a live unorderly changing content",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#marquee",
+    "standard": "aria"
+  },
+  {
+    "element": "menu",
+    "description": "signifies a list of control widget content",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#menu",
+    "standard": "aria"
+  },
+  {
+    "element": "menubar",
+    "description": "signifies a visibly firm `menu` content",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#menubar",
+    "standard": "aria"
+  },
+  {
+    "element": "menuitemcheckbox",
+    "description": "signifies a `menu` `checkbox` phrase",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#menuitemcheckbox",
+    "standard": "aria"
+  },
+  {
+    "element": "menuitemradio",
+    "description": "signifies a `menu` radio phrase",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#menuitemradio",
+    "standard": "aria"
+  },
+  {
+    "element": "none",
+    "description": "signifies an unmapped content",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#none",
+    "standard": "aria"
+  },
+  {
+    "element": "note",
+    "description": "signifies a parenthetic content",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#note",
+    "standard": "aria"
+  },
+  {
+    "element": "scrollbar",
+    "description": "signifies a scroll widget phrase",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#scrollbar",
+    "standard": "aria"
+  },
+  {
+    "element": "status",
+    "description": "signifies an advisory live region content",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#status",
+    "standard": "aria"
+  },
+  {
+    "element": "switch",
+    "description": "signifies an on/off widget phrase",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#switch",
+    "standard": "aria"
+  },
+  {
+    "element": "tab",
+    "description": "signifies a `tabpanel` display widget phrase",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#tab",
+    "standard": "aria"
+  },
+  {
+    "element": "tablist",
+    "description": "signifies a set of `tab` item block",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#tablist",
+    "standard": "aria"
+  },
+  {
+    "element": "tabpanel",
+    "description": "signifies a `tab` content",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#tabpanel",
+    "standard": "aria"
+  },
+  {
+    "element": "timer",
+    "description": "signifies a live counter content",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#timer",
+    "standard": "aria"
+  },
+  {
+    "element": "toolbar",
+    "description": "signifies a set of `button` or control content",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#toolbar",
+    "standard": "aria"
+  },
+  {
+    "element": "tooltip",
+    "description": "signifies a popup block",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#tooltip",
+    "standard": "aria"
+  },
+  {
+    "element": "tree",
+    "description": "signifies a ranked selection widget content",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#tree",
+    "standard": "aria"
+  },
+  {
+    "element": "treegrid",
+    "description": "signifies a collapsible `grid` content",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#treegrid",
+    "standard": "aria"
+  },
+  {
+    "element": "treeitem",
+    "description": "signifies a `tree` item widget phrase",
+    "spec": "https://www.w3.org/TR/wai-aria-1.2/#treeitem",
+    "standard": "aria"
+  }
 ]
 
 module.exports = { elements }
